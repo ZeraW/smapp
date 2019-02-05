@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/main_home_re"
+    android:background="@drawable/bg_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary"
+        android:id="@+id/custom"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/drawer_icon"
+            android:id="@+id/drawer"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="طارق الشيخ"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+        />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+        <ImageView
+            android:id="@+id/appName"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            />
+
+
+
+    <ImageView
+        android:id="@+id/center"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:id="@+id/btn_tracks"
+            android:background="@drawable/enshad_icon_press"
+            android:layout_marginRight="15dp"
+
+            />
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:id="@+id/btn_videos"
+            android:background="@drawable/video_icon_press"
+            android:layout_marginLeft="15dp"
+            />
+
+
+    </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+
+
+            >
+
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:id="@+id/btn_downloads"
+                android:background="@drawable/download_icon_press"
+
+                />
+
+
+
+
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            >
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:id="@+id/btn_gallary"
+                android:background="@drawable/photo_icon_press"
+                android:layout_marginRight="15dp"
+
+                />
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:id="@+id/btn_news"
+                android:background="@drawable/last_news_press"
+                android:layout_marginLeft="15dp"
+
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <RelativeLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_gravity="center"
+         android:layout_margin="5dp"
+         >
+
+
+         <com.facebook.share.widget.LikeView
+             android:id="@+id/like_view"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"/>
+     </RelativeLayout>
+ -->
+
+</android.support.design.widget.CoordinatorLayout>
